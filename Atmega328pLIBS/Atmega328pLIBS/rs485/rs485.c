@@ -49,3 +49,7 @@ unsigned char rs485TransmitComplete(void) {
 void flushRs485RxBuffer(void) {
 	flushUartRxBuffer();
 }
+
+void flushRs485TxBuffer(void) {
+	flushUartTxBuffer();
+}

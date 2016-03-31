@@ -18,5 +18,6 @@ void writeRS485(unsigned char* wData);
 unsigned char readRS485(void);
 unsigned char rs485TransmitComplete(void);
 void flushRs485RxBuffer(void);
+void flushRs485TxBuffer(void);
 
 #endif /* RS485_H_ */

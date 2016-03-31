@@ -76,6 +76,10 @@ void flushUartRxBuffer(void) {
 	g_rx_buff.head = g_rx_buff.tail = 0;
 }
 
+void flushUartTxBuffer(void) {
+	g_tx_buff.head = g_tx_buff.tail = 0;
+}
+
 ISR (USART_RX_vect, ISR_BLOCK) {
 	// no frame error
 	// UCSR0A must be read before UDR0 !!!

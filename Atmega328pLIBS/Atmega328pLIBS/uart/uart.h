@@ -13,5 +13,6 @@ unsigned char writeCharToSerial(unsigned char a_data);
 unsigned char readCharFromSerial(void);
 unsigned char uartHasDataToTransmit(void);
 void flushUartRxBuffer(void);
+void flushUartTxBuffer(void);
 
 #endif /* UART_H_ */
