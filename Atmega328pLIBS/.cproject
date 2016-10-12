@@ -33,6 +33,9 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Atmega328pLIBS/Atmega328pLIBS/spi}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Atmega328pLIBS/Atmega328pLIBS/nrf24l01}&quot;"/>
 								</option>
+								<option id="de.innot.avreclipse.compiler.option.def.291023222" name="Define Syms (-D)" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__AVR_ATmega328P__=1"/>
+								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.1899329197" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.cppcompiler.lib.release.1086053827" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.lib.release">
@@ -76,5 +79,10 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Atmega328pLIBS"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>
