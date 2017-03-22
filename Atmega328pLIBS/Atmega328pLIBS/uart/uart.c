@@ -9,7 +9,7 @@
 #include <avr/interrupt.h>
 #include "uart.h"
 
-#define USART_BAUDRATE 38400
+#define USART_BAUDRATE 57600
 #define BAUD_PRESCALE ((F_CPU / (USART_BAUDRATE * 16UL)) - 1)
 #define SERIAL_RING_BUF_SIZE 20
 
